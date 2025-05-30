@@ -9,150 +9,233 @@
       "description": "Learn the basic Japanese syllabary",
       "lessons": [
         {
-          "id": "hiragana-intro",
-          "name": "Introduction to Hiragana",
-          "logo": "📝",
-          "slides": [
-            {
-              "id": "welcome-slide",
-              "type": "introduction",
-              "content": {
-                "title": "Welcome to Hiragana!",
-                "text": "Hiragana (ひらがな) is one of the three writing systems in Japanese. It's the foundation of Japanese writing and perfect for beginners!",
-                "image": null
-              }
-            },
-            {
-              "id": "what-is-hiragana",
-              "type": "introduction", 
-              "content": {
-                "title": "What is Hiragana?",
-                "text": "Hiragana consists of 46 basic characters, each representing a sound. Unlike English letters, each hiragana character represents a complete syllable.",
-                "image": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "a-row-lesson",
-          "name": "あ行 (A-row)",
+          "id": "Vowels",
+          "name": "a-row-vowels",
           "logo": "あ",
           "slides": [
             {
-              "id": "a-intro",
-              "type": "character_display",
+              "id": "writing-system-intro",
+              "type": "introduction",
+              "content": {
+                "text": "The Japanese writing system uses three scripts: Hiragana, Katakana, and Kanji. Hiragana is often the first script learned by beginners.",
+                "image": null
+              }
+            },
+            {
+              "id": "hiragana-intro",
+              "type": "introduction",
+              "content": {
+                "text": "Hiragana is a phonetic script with characters representing sounds. It’s used for native Japanese words and grammatical elements.",
+                "image": null
+              }
+            },
+            {
+              "id": "vowel-intro",
+              "type": "introduction",
+              "content": {
+                "text": "Japanese vowels are the foundation of pronunciation. There are five vowels: あ (a), い (i), う (u), え (e), and お (o).",
+                "image": null
+              }
+            },
+            {
+              "id": "a-vowel",
+              "type": "character_intro",
               "content": {
                 "character": "あ",
-                "pronunciation": "a",
-                "example": "あり (ari) - ant",
-                "strokeOrder": "2 strokes"
+                "romaji": "a",
+                "audio": "audio_a.mp3",
+                "image": "a_image.png",
+                "description": "This is あ. It sounds like 'a' in 'father'. Interestingly, just like English, Japanese also starts with the 'a' sound."
               }
             },
             {
-              "id": "i-intro",
-              "type": "character_display", 
-              "content": {
-                "character": "い",
-                "pronunciation": "i",
-                "example": "いえ (ie) - house",
-                "strokeOrder": "2 strokes"
-              }
-            },
-            {
-              "id": "u-intro",
-              "type": "character_display",
-              "content": {
-                "character": "う",
-                "pronunciation": "u", 
-                "example": "うみ (umi) - sea",
-                "strokeOrder": "2 strokes"
-              }
-            },
-            {
-              "id": "e-intro",
-              "type": "character_display",
-              "content": {
-                "character": "え",
-                "pronunciation": "e",
-                "example": "えき (eki) - station", 
-                "strokeOrder": "2 strokes"
-              }
-            },
-            {
-              "id": "o-intro",
-              "type": "character_display",
-              "content": {
-                "character": "お",
-                "pronunciation": "o",
-                "example": "おに (oni) - demon",
-                "strokeOrder": "3 strokes"
-              }
-            },
-            {
-              "id": "a-row-quiz",
+              "id": "a-quiz",
               "type": "multiple_choice",
               "content": {
-                "question": "Which character represents the sound 'a'?",
-                "options": ["あ", "い", "う", "え"],
+                "question": "Choose the correct Romaji for the character あ.",
+                "image": "a_image.png",
+                "audio": "audio_a.mp3",
+                "options": [
+                  "a",
+                  "i",
+                  "u",
+                  "e"
+                ],
                 "correctAnswer": 0,
-                "explanation": "あ (a) is the first character in the hiragana syllabary."
+                "explanation": "The character あ is pronounced 'a', like the 'a' in 'father'."
+              }
+            },
+            {
+              "id": "i-vowel",
+              "type": "character_intro",
+              "content": {
+                "character": "い",
+                "romaji": "i",
+                "audio": "audio_i.mp3",
+                "image": "i_image.png",
+                "description": "This is い. It sounds like 'ee' in 'see'."
+              }
+            },
+            {
+              "id": "i-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Choose the correct Romaji for the character い.",
+                "image": "i_image.png",
+                "audio": "audio_i.mp3",
+                "options": [
+                  "e",
+                  "i",
+                  "u",
+                  "o"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The character い is pronounced 'i', like 'ee' in 'see'."
+              }
+            },
+            {
+              "id": "u-vowel",
+              "type": "character_intro",
+              "content": {
+                "character": "う",
+                "romaji": "u",
+                "audio": "audio_u.mp3",
+                "image": "u_image.png",
+                "description": "This is う. It sounds like 'oo' in 'food'."
+              }
+            },
+            {
+              "id": "u-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Choose the correct Romaji for the character う.",
+                "image": "u_image.png",
+                "audio": "audio_u.mp3",
+                "options": [
+                  "u",
+                  "o",
+                  "a",
+                  "i"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The character う is pronounced 'u', like 'oo' in 'food'."
+              }
+            },
+            {
+              "id": "e-vowel",
+              "type": "character_intro",
+              "content": {
+                "character": "え",
+                "romaji": "e",
+                "audio": "audio_e.mp3",
+                "image": "e_image.png",
+                "description": "This is え. It sounds like 'e' in 'bed'."
+              }
+            },
+            {
+              "id": "e-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Choose the correct Romaji for the character え.",
+                "image": "e_image.png",
+                "audio": "audio_e.mp3",
+                "options": [
+                  "e",
+                  "i",
+                  "a",
+                  "o"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The character え is pronounced 'e', like 'e' in 'bed'."
+              }
+            },
+            {
+              "id": "o-vowel",
+              "type": "character_intro",
+              "content": {
+                "character": "お",
+                "romaji": "o",
+                "audio": "audio_o.mp3",
+                "image": "o_image.png",
+                "description": "This is お. It sounds like 'o' in 'go'."
+              }
+            },
+            {
+              "id": "o-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Choose the correct Romaji for the character お.",
+                "image": "o_image.png",
+                "audio": "audio_o.mp3",
+                "options": [
+                  "u",
+                  "o",
+                  "e",
+                  "i"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The character お is pronounced 'o', like 'o' in 'go'."
+              }
+            },
+            {
+              "id": "wa-introduction",
+              "type": "introduction",
+              "content": {
+                "text": "The particle は (written as は but pronounced 'wa') marks the topic of a sentence. It tells us what the sentence is about.",
+                "image": null
+              }
+            },
+            {
+              "id": "wa-example1",
+              "type": "phrase_display",
+              "content": {
+                "japanese": "わたしは がくせいです。",
+                "hiragana": "わたしは がくせいです。",
+                "pronunciation": "watashi wa gakusei desu",
+                "english": "I am a student.",
+                "usage": "Basic self-introduction"
+              }
+            },
+            {
+              "id": "wa-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Complete: たなかさん___ せんせいです。(Mr. Tanaka is a teacher)",
+                "options": [
+                  "は",
+                  "が",
+                  "を",
+                  "に"
+                ],
+                "correctAnswer": 0,
+                "explanation": "は (wa) marks 'Mr. Tanaka' as the topic of the sentence."
               }
             }
           ]
         },
         {
-          "id": "ka-row-lesson", 
-          "name": "か行 (Ka-row)",
-          "logo": "か",
+          "id": "desu-verb",
+          "name": "です (desu) - To be",
+          "logo": "✨",
           "slides": [
             {
-              "id": "ka-intro",
-              "type": "character_display",
+              "id": "desu-intro",
+              "type": "introduction",
               "content": {
-                "character": "か",
-                "pronunciation": "ka",
-                "example": "かに (kani) - crab",
-                "strokeOrder": "3 strokes"
+                "title": "です (desu) - Polite 'to be'",
+                "text": "です (desu) is the polite form of 'to be' in Japanese. It's used to make statements formal and polite.",
+                "image": null
               }
             },
             {
-              "id": "ki-intro",
-              "type": "character_display",
+              "id": "desu-examples",
+              "type": "phrase_display",
               "content": {
-                "character": "き",
-                "pronunciation": "ki", 
-                "example": "き (ki) - tree",
-                "strokeOrder": "4 strokes"
-              }
-            },
-            {
-              "id": "ku-intro",
-              "type": "character_display",
-              "content": {
-                "character": "く",
-                "pronunciation": "ku",
-                "example": "くま (kuma) - bear",
-                "strokeOrder": "1 stroke"
-              }
-            },
-            {
-              "id": "ke-intro", 
-              "type": "character_display",
-              "content": {
-                "character": "け",
-                "pronunciation": "ke",
-                "example": "けいき (keiki) - cake",
-                "strokeOrder": "3 strokes"
-              }
-            },
-            {
-              "id": "ko-intro",
-              "type": "character_display", 
-              "content": {
-                "character": "こ",
-                "pronunciation": "ko",
-                "example": "こども (kodomo) - child",
-                "strokeOrder": "2 strokes"
+                "japanese": "これは ほんです。",
+                "hiragana": "これは ほんです。",
+                "pronunciation": "kore wa hon desu",
+                "english": "This is a book.",
+                "usage": "Identifying objects politely"
               }
             }
           ]
@@ -161,7 +244,7 @@
     },
     {
       "id": "katakana-chapter",
-      "name": "Katakana", 
+      "name": "Katakana",
       "logo": "ア",
       "number": 2,
       "description": "Learn katakana for foreign words",
@@ -188,7 +271,7 @@
       "id": "greetings-chapter",
       "name": "Basic Greetings",
       "logo": "👋",
-      "number": 3, 
+      "number": 3,
       "description": "Essential Japanese greetings",
       "lessons": [
         {
@@ -211,7 +294,7 @@
               "id": "ohayo-gozaimasu",
               "type": "phrase_display",
               "content": {
-                "japanese": "おはようございます", 
+                "japanese": "おはようございます",
                 "hiragana": "おはようございます",
                 "pronunciation": "ohayou gozaimasu",
                 "english": "Good morning (formal)",

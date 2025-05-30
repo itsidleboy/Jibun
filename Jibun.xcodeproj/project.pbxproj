@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B761CC542DE98FE100CC646F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B761CC532DE98FE100CC646F /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7604D622DE8D22D00CCB1BB /* Jibun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jibun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B761CC532DE98FE100CC646F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -28,7 +26,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B761CC542DE98FE100CC646F /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +52,6 @@
 		B761CC522DE98FE100CC646F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B761CC532DE98FE100CC646F /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

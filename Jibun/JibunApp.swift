@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct JibunApp: App {
-    let persistenceController = PersistenceController.shared
+    @StateObject private var dataManager = DataManager.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(dataManager)
         }
     }
 }
