@@ -1,0 +1,226 @@
+{
+  "courseId": "japanese-basics",
+  "chapters": [
+    {
+      "id": "hiragana-chapter",
+      "name": "Hiragana",
+      "logo": "あ",
+      "number": 1,
+      "description": "Learn the basic Japanese syllabary",
+      "lessons": [
+        {
+          "id": "hiragana-intro",
+          "name": "Introduction to Hiragana",
+          "logo": "📝",
+          "slides": [
+            {
+              "id": "welcome-slide",
+              "type": "introduction",
+              "content": {
+                "title": "Welcome to Hiragana!",
+                "text": "Hiragana (ひらがな) is one of the three writing systems in Japanese. It's the foundation of Japanese writing and perfect for beginners!",
+                "image": null
+              }
+            },
+            {
+              "id": "what-is-hiragana",
+              "type": "introduction", 
+              "content": {
+                "title": "What is Hiragana?",
+                "text": "Hiragana consists of 46 basic characters, each representing a sound. Unlike English letters, each hiragana character represents a complete syllable.",
+                "image": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "a-row-lesson",
+          "name": "あ行 (A-row)",
+          "logo": "あ",
+          "slides": [
+            {
+              "id": "a-intro",
+              "type": "character_display",
+              "content": {
+                "character": "あ",
+                "pronunciation": "a",
+                "example": "あり (ari) - ant",
+                "strokeOrder": "2 strokes"
+              }
+            },
+            {
+              "id": "i-intro",
+              "type": "character_display", 
+              "content": {
+                "character": "い",
+                "pronunciation": "i",
+                "example": "いえ (ie) - house",
+                "strokeOrder": "2 strokes"
+              }
+            },
+            {
+              "id": "u-intro",
+              "type": "character_display",
+              "content": {
+                "character": "う",
+                "pronunciation": "u", 
+                "example": "うみ (umi) - sea",
+                "strokeOrder": "2 strokes"
+              }
+            },
+            {
+              "id": "e-intro",
+              "type": "character_display",
+              "content": {
+                "character": "え",
+                "pronunciation": "e",
+                "example": "えき (eki) - station", 
+                "strokeOrder": "2 strokes"
+              }
+            },
+            {
+              "id": "o-intro",
+              "type": "character_display",
+              "content": {
+                "character": "お",
+                "pronunciation": "o",
+                "example": "おに (oni) - demon",
+                "strokeOrder": "3 strokes"
+              }
+            },
+            {
+              "id": "a-row-quiz",
+              "type": "multiple_choice",
+              "content": {
+                "question": "Which character represents the sound 'a'?",
+                "options": ["あ", "い", "う", "え"],
+                "correctAnswer": 0,
+                "explanation": "あ (a) is the first character in the hiragana syllabary."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ka-row-lesson", 
+          "name": "か行 (Ka-row)",
+          "logo": "か",
+          "slides": [
+            {
+              "id": "ka-intro",
+              "type": "character_display",
+              "content": {
+                "character": "か",
+                "pronunciation": "ka",
+                "example": "かに (kani) - crab",
+                "strokeOrder": "3 strokes"
+              }
+            },
+            {
+              "id": "ki-intro",
+              "type": "character_display",
+              "content": {
+                "character": "き",
+                "pronunciation": "ki", 
+                "example": "き (ki) - tree",
+                "strokeOrder": "4 strokes"
+              }
+            },
+            {
+              "id": "ku-intro",
+              "type": "character_display",
+              "content": {
+                "character": "く",
+                "pronunciation": "ku",
+                "example": "くま (kuma) - bear",
+                "strokeOrder": "1 stroke"
+              }
+            },
+            {
+              "id": "ke-intro", 
+              "type": "character_display",
+              "content": {
+                "character": "け",
+                "pronunciation": "ke",
+                "example": "けいき (keiki) - cake",
+                "strokeOrder": "3 strokes"
+              }
+            },
+            {
+              "id": "ko-intro",
+              "type": "character_display", 
+              "content": {
+                "character": "こ",
+                "pronunciation": "ko",
+                "example": "こども (kodomo) - child",
+                "strokeOrder": "2 strokes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "katakana-chapter",
+      "name": "Katakana", 
+      "logo": "ア",
+      "number": 2,
+      "description": "Learn katakana for foreign words",
+      "lessons": [
+        {
+          "id": "katakana-intro",
+          "name": "Introduction to Katakana",
+          "logo": "📚",
+          "slides": [
+            {
+              "id": "katakana-welcome",
+              "type": "introduction",
+              "content": {
+                "title": "Welcome to Katakana!",
+                "text": "Katakana (カタカナ) is used primarily for foreign words, onomatopoeia, and emphasis. It has the same sounds as hiragana but different characters.",
+                "image": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greetings-chapter",
+      "name": "Basic Greetings",
+      "logo": "👋",
+      "number": 3, 
+      "description": "Essential Japanese greetings",
+      "lessons": [
+        {
+          "id": "daily-greetings",
+          "name": "Daily Greetings",
+          "logo": "☀️",
+          "slides": [
+            {
+              "id": "ohayo",
+              "type": "phrase_display",
+              "content": {
+                "japanese": "おはよう",
+                "hiragana": "おはよう",
+                "pronunciation": "ohayou",
+                "english": "Good morning (informal)",
+                "usage": "Used with friends and family"
+              }
+            },
+            {
+              "id": "ohayo-gozaimasu",
+              "type": "phrase_display",
+              "content": {
+                "japanese": "おはようございます", 
+                "hiragana": "おはようございます",
+                "pronunciation": "ohayou gozaimasu",
+                "english": "Good morning (formal)",
+                "usage": "Used in formal situations"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

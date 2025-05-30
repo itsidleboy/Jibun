@@ -1,0 +1,58 @@
+{
+  "courses": [
+    {
+      "id": "japanese-basics",
+      "name": "Japanese Basics",
+      "logo": "🇯🇵",
+      "description": "Perfect for complete beginners! Learn the foundation of Japanese language including hiragana, katakana, and basic phrases.",
+      "level": 0,
+      "isUnlocked": true,
+      "chaptersFile": "basics-content.json"
+    },
+    {
+      "id": "jlpt-n5",
+      "name": "JLPT N5",
+      "logo": "🌱",
+      "description": "Master the most basic level of Japanese proficiency test. Learn essential grammar, vocabulary, and kanji.",
+      "level": 1,
+      "isUnlocked": true,
+      "chaptersFile": "jlpt-n5-content.json"
+    },
+    {
+      "id": "jlpt-n4",
+      "name": "JLPT N4",
+      "logo": "🌿",
+      "description": "Build on your N5 knowledge with more complex grammar patterns and everyday vocabulary.",
+      "level": 2,
+      "isUnlocked": false,
+      "chaptersFile": "jlpt-n4-content.json"
+    },
+    {
+      "id": "jlpt-n3",
+      "name": "JLPT N3",
+      "logo": "🌳",
+      "description": "Intermediate level Japanese with complex sentence structures and business vocabulary.",
+      "level": 3,
+      "isUnlocked": false,
+      "chaptersFile": "jlpt-n3-content.json"
+    },
+    {
+      "id": "jlpt-n2",
+      "name": "JLPT N2",
+      "logo": "🏔️",
+      "description": "Upper intermediate level with advanced grammar and reading comprehension skills.",
+      "level": 4,
+      "isUnlocked": false,
+      "chaptersFile": "jlpt-n2-content.json"
+    },
+    {
+      "id": "jlpt-n1",
+      "name": "JLPT N1",
+      "logo": "⛩️",
+      "description": "Master level Japanese proficiency with complex texts and nuanced language understanding.",
+      "level": 5,
+      "isUnlocked": false,
+      "chaptersFile": "jlpt-n1-content.json"
+    }
+  ]
+}
